@@ -1,0 +1,3 @@
+function showOffers() {
+  alert("Hola")
+}
