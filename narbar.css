@@ -1,0 +1,83 @@
+
+.navb{
+    list-style: none;
+    padding: 0;
+    background: #4e05a6;
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;  /*centra el bloque*/
+    border-radius: 5px;
+   
+}
+
+.navb li a{
+    text-decoration: none;    /*Quita la decoracion de enlace*/
+    color: rgba(166, 177, 187, 0.826);       /*color del texto*/
+    padding: 10px;
+    display: block;
+    
+}
+
+.navb li a { /*accede "a" la tetiqueda */
+text-decoration: none; /*quita la decoracion de enlace*/
+color: white; /*color del texto*/
+padding: 20px; /*Se engarca del espaciado del espaciado uniforme*/
+display: block;
+
+}
+
+.navb li{
+    display: inline-block; /*permite colocar el texto a lo largo */
+    text-align: center; /*Centra*/
+}
+
+.navb li a:hover{
+    background: #70bedd; /*Resalta la donde pasa el mouse*/
+
+}
+/*prueba*/
+/*footer*/
+.contenedor-footer{  /* Agrega bloque */
+    
+    list-style: none;
+    padding: 0;
+    background: #4e05a6;  /* Agregs color al bloque */
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;  /*centra el bloque*/
+    border-radius: 5px;
+
+}
+
+.contenedor-footer li a{
+    text-decoration: none;    /*Quita la decoracion de enlace*/
+    color: rgba(217, 226, 235, 0.826);       /*color del texto*/
+    padding: 5px;
+    display: block;
+}
+.footer-politica {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .footer-politica li {
+    display: inline; /* Hace que los elementos se alineen en línea */
+    margin: 0 15px;
+  }
+  
+  .footer-politica a {
+    color: white;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+  }
+  
+  .footer-politica a:hover {
+    text-decoration: unset; /* Agrega subrayado cuando se pasa el mouse */
+    background: #70bedd;
+  }
+  .contenedor-footer p{
+    text-align: center;
+    
+  }
