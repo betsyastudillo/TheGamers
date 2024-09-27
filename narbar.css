@@ -35,6 +35,20 @@ display: block;
     background: #70bedd; /*Resalta la donde pasa el mouse*/
 
 }
+.navb li i{  /*Edita iconos*/
+    color: antiquewhite; /*Cambia el color de los iconos*/
+    padding: 5px;    /*Se engarca del espaciado del espaciado uniforme*/
+    
+}
+.navb li i{
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+}
+.navb i:hover {
+    color: #12f370; /* Cambia el color al pasar el mouse */
+  }
+
 /*prueba*/
 /*footer*/
 .contenedor-footer{  /* Agrega bloque */
@@ -54,13 +68,29 @@ display: block;
     color: rgba(217, 226, 235, 0.826);       /*color del texto*/
     padding: 5px;
     display: block;
+
 }
+.contenedor-footer p{
+    text-align: center;
+    color: antiquewhite;
+
+  }
+.contenedor-footer img{ /*edita la imagen*/
+    
+    border-radius: 10px;
+    width: 90px; /* Ajusta el tamaño del logo según prefieras */
+    margin: auto;
+    padding: auto;
+    display: block; /*centra logo**/
+    height: auto;
+}
+
 .footer-politica {
     list-style-type: none;
     padding: 0;
     text-align: center;
-    color: white;
-    
+    color: rgb(224, 212, 212); 
+      
   }
   
   .footer-politica li {
@@ -76,8 +106,4 @@ display: block;
   .footer-politica a:hover {
     text-decoration: unset; /* Agrega subrayado cuando se pasa el mouse */
     background: #70bedd;
-  }
-  .contenedor-footer p{
-    text-align: center;
-    
   }
