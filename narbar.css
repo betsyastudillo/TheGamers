@@ -9,6 +9,13 @@
     border-radius: 5px;
    
 }
+ul.navb{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; /*elementos al inicio*/
+  align-items: center; /*centran los items*/
+  padding: 0;
+}
 
 .navb li a{
     text-decoration: none;    /*Quita la decoracion de enlace*/
@@ -35,22 +42,28 @@ display: block;
     background: #70bedd; /*Resalta la donde pasa el mouse*/
 
 }
-.navb li i{  /*Edita iconos*/
-    color: antiquewhite; /*Cambia el color de los iconos*/
-    padding: 5px;    /*Se engarca del espaciado del espaciado uniforme*/
-    
-}
-.navb li i{
-    display: inline-block;
-    text-align: right;
-    font-size: 20px;
-}
+
 .navb i:hover {
     color: #12f370; /* Cambia el color al pasar el mouse */
   }
-
+  /*iconos*/
+.iconos{
+    margin-left: 100px;
+}
+.iconos i{  /*Edita iconos*/
+  color: antiquewhite; /*Cambia el color de los iconos*/
+  padding: 7px;    /*Se engarca del espaciado del espaciado uniforme*/
+  margin-right: 15px;
+}
+.iconos i{
+  display: inline-block;
+  font-size: 20px;
+}
+.iconos{
+  margin-right: auto;
+}
 /*prueba*/
-/*footer*/
+
 .contenedor-footer{  /* Agrega bloque */
     
     list-style: none;
@@ -70,7 +83,7 @@ display: block;
     display: block;
 
 }
-.contenedor-footer p{
+.contenedor-footer p{  /*edita el parrafo*/
     text-align: center;
     color: antiquewhite;
 
@@ -85,7 +98,7 @@ display: block;
     height: auto;
 }
 
-.footer-politica {
+.footer-politica { 
     list-style-type: none;
     padding: 0;
     text-align: center;
@@ -93,17 +106,17 @@ display: block;
       
   }
   
-  .footer-politica li {
+.footer-politica li {
     display: inline; /* Hace que los elementos se alineen en línea */
-    margin: 0 15px;
+    margin: 15px;
   }
   
-  .footer-politica a {
+.footer-politica a {
     color: white;
     text-decoration: none; /* Quita el subrayado de los enlaces */
   }
   
-  .footer-politica a:hover {
+.footer-politica a:hover {
     text-decoration: unset; /* Agrega subrayado cuando se pasa el mouse */
     background: #70bedd;
-  }
+  } 
