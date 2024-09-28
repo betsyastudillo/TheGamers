@@ -1,0 +1,41 @@
+.formulario{
+    text-align: center;
+    margin: 30%;
+    background-color: rgb(196, 131, 47);
+    border-radius: 15px;
+
+}
+ .form-control{
+    
+    width: 70%;
+    margin-left: 15%;
+ }
+
+ .form-label{
+    font-weight: bold;
+ }
+
+ button{
+    margin-bottom: 5%;
+ }
+
+ h2{
+    padding: 5% 0;
+ }
+
+ .form-control {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#captcha{
+   display: none;
+}
+
+#submitButton{
+   user-select: none;
+}
