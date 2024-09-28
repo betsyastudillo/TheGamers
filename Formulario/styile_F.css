@@ -35,3 +35,7 @@
 #captcha{
    display: none;
 }
+
+#submitButton{
+   user-select: none;
+}

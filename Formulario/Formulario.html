@@ -37,21 +37,21 @@
           <div class="container">
             <header>Captchap</header>
             <div class="input_field captch_box">
-            <input type="text" value="" disabled />
-              <button class="refresh_button">
+            <input type="text" id="captchaCode" value="" disabled />
+              <button type="button" class="refresh_button" id="refreshCaptcha">
               <i class="fa-solid fa-rotate-right"></i>
               </button>
             </div>
               <div class="input_field captch_input">
-              <input type="text" placeholder="Ingresar" />
+              <input type="text" id="captchaInput" placeholder="Ingresar" />
               </div>
-              <div class="message">El Captchap es correcto</div>
+              <div class="message" >El Captchap es correcto</div>
               <div class="input_field button disabled">
                 <button type="button">Enviar</button>
               </div>
           </div>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary" id="submitButton">Enviar</button>
 </div>
         
       </form>

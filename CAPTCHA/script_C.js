@@ -15,6 +15,8 @@ const generateCaptchap = () => {
     console.log(captchaText);
 };
 
+
+
 const refreshBtnClick = () => {
     generateCaptchap();
     captchaInputBox.value = "";
@@ -37,10 +39,18 @@ const submitBtnClick = () => {
     .join("");
 
     message.classList.add("active");
-  
+
+    const captcha =document.getElementById('captcha');
+    const submitButton =document.getElementById('submitButton')
+
     if (captchaInputBox.value === captchaText) {
         message.innerText = "Correcto";
-        message.style.color = "#82afb";
+        
+        setTimeout( () => {
+            captcha.style.display='none';
+            submitButton.disabled=false;
+        }, 3000);
+        
     }else{
         message.innerText = "No es Correcto";
         message.style.color = "#FF2525"
