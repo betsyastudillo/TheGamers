@@ -44,7 +44,8 @@ const submitBtnClick = () => {
     const submitButton =document.getElementById('submitButton')
 
     if (captchaInputBox.value === captchaText) {
-        message.innerText = "Correcto";
+        message.innerText = "Código válido. Redirigiendo...";
+        message.style.color = "#6EC207"
         
         setTimeout( () => {
             captcha.style.display='none';
@@ -52,7 +53,7 @@ const submitBtnClick = () => {
         }, 3000);
         
     }else{
-        message.innerText = "No es Correcto";
+        message.innerText = "Código incorrecto, valide nuevamente.";
         message.style.color = "#FF2525"
     }
 };

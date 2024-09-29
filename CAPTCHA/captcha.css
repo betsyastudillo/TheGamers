@@ -1,20 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
-}
-
-.container{
+.container-captcha{
     position: relative;
+    left: 40%;
     max-width: 300px;
     width: 100%;
     border-radius: 12px;
@@ -27,7 +14,7 @@ body{
 header{
     color: black;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
 }
@@ -68,6 +55,7 @@ header{
 .input_field input{
     padding: 0 15px;
     border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 25px;
     }
 
 .captch_box input{
@@ -87,12 +75,15 @@ header{
 }
 .message.active{
     display: block;
+    font-size: 18px;
+    font-weight: 600;
 }
 .button button{
     background: blueviolet;
     color: aliceblue;
     cursor: pointer;
     user-select: none;
+    font-size: 20px;
 }
 .button button:active{
     transform: scale(0.99);
