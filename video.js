@@ -1,3 +1,0 @@
-function showOffers() {
-  alert("Hola")
-}

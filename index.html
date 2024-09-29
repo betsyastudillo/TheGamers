@@ -27,19 +27,6 @@
           aria-label="Toggle navigation">
           &#9776;
         </button>
-      <!-- <button
-          class="custom-toggler navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#customNabarNav"
-          aria-controls="customNavbarNav"
-          aria-
-          expanded="false"
-          aria-label="Toggle navigation"
-          style="background-color: #999; margin-right: 15px;"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
         <!-- Menú de navegación -->
       <div class="navbar-menu" id="navbarMenu">
         <ul class="navbar-nav">
@@ -47,10 +34,10 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Ofertas</a>
+            <a class="nav-link active" aria-current="page" href="#ofertas">Ofertas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+            <a class="nav-link active" aria-current="page" href="#contactenos">Contáctenos</a>
           </li>
         </ul>
       </div>
@@ -68,7 +55,6 @@
           </li>
         </ul>
       </div>
-
     </div>
   </nav>
   <!--Aqui termina nav-->
@@ -78,12 +64,14 @@
     <div class="content">
       <h2>¡Bienvenido a The Gamer!</h2>
       <p>El lugar ideal para los amantes a los videojuegos, y al mundo gamer.<p>
-      <button onclick="showOffers()">Ver catálogo</button>
+        <a href="#ofertas">
+          <button>Ver ofertas</button>
+        </a>
     </div>
   
     <script src="./video.js"></script>
   </section>
-  <section class="section-carousel">
+  <section class="section-carousel" id="ofertas">
     <div class="div-carousel">
       <h2>¡OFERTAS DEL DÍA!</h2>
     </div>
@@ -107,7 +95,7 @@
     </a>
   </div>
   </section>
-  <section class="section-form">
+  <section class="section-form" id="contactenos">
     <div class="formulario">
       <h2>¡Déjanos contactarte!</h2>
       <form>
@@ -157,7 +145,7 @@
   <div class="contenedor-footer">
     <div class="contenedor-footer">
       <img src="logo.png" alt="Logo The Gamers">
-    </div> Cambia logo.png por la ruta de tu logo
+    </div>
   
       <ul class="footer-politica">
         <li><i class="fa-regular fa-envelope"><p>thegamer@hotmail.es</p></i></li>
