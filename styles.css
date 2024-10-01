@@ -422,5 +422,16 @@ button.next {
   .hero {
     height: 50vh;
   }
+
+  .carousel-item img {
+    height: 400px;
+    max-width: 300px;
+  }
+  
+  .div-carousel h2, .formulario h2{
+    font-size: 2.5rem;
+    align-items: center;
+  }
 }
+
 
